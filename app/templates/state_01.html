@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>You are in, {{ state.state }}!</h1>
+
+<div>Microblog: <a href="{{ url_for('state_02') }}">state_02</a></div>
+
+{% endblock %}

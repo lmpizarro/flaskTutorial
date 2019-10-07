@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>You are in, {{ state.state }}!</h1>
+
+<div>Next State: <a href="{{ url_for('state_04') }}">state_04</a></div>
+
+{% endblock %}
